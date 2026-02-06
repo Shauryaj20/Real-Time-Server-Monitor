@@ -48,7 +48,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-### 2.Frontend Setup
+### 2.Frontend Setup (React)
 ```bash
 # Navigate to frontend folder
 cd server-monitor-sj
