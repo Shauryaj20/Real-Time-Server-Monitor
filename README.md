@@ -32,9 +32,8 @@ The system features a **Django REST API** that uses Python's `psutil` to inspect
 
 ## 📸 Dashboard Preview
 
-![Dashboard in Dark Mode](INSERT_LINK_HERE)
+![Dashboard in Dark Mode](dashboard-dark.png)
 *Real-time CPU and Memory graphs in Dark Mode.*
-
 ## 🔧 Installation & Setup
 
 ### 1. Backend Setup (Django)
@@ -47,12 +46,9 @@ pip install -r requirements.txt
 
 # Run the API server (Runs at http://localhost:8000)
 python manage.py runserver
-pip install django djangorestframework django-cors-headers psutil
+```
 
-# Run the server
-python manage.py runserver
-
-### 2. Frontend Setup (React)
+### 2.Frontend Setup
 ```bash
 # Navigate to frontend folder
 cd server-monitor-sj
@@ -62,3 +58,4 @@ npm install
 
 # Start the dashboard (Runs at http://localhost:5173)
 npm run dev
+```
