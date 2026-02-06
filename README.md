@@ -31,7 +31,6 @@ The system features a **Django REST API** that uses Python's `psutil` to inspect
 * **State Management:** `useState` (Data Buffer), `useEffect` (Polling Interval), `useContext` (Theme State).
 
 ## 📸 Dashboard Preview
-*(Upload your screenshot here)*
 
 ![Dashboard in Dark Mode](INSERT_LINK_HERE)
 *Real-time CPU and Memory graphs in Dark Mode.*
@@ -52,3 +51,14 @@ pip install django djangorestframework django-cors-headers psutil
 
 # Run the server
 python manage.py runserver
+
+### 2. Frontend Setup (React)
+```bash
+# Navigate to frontend folder
+cd server-monitor-sj
+
+# Install packages
+npm install
+
+# Start the dashboard (Runs at http://localhost:5173)
+npm run dev
